@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: #d9c46e !important;
+}
+
+.nav-link:hover{
+    color: #213555;
+    font-weight: 900 !important; 
+}
+
+#navbarNavAltMarkup{
+    justify-content: space-around;
+    
+}
+
+.profile{
+    border-radius: 10%;
+    width: 15%;
+    height: auto;
+}
+
+#hero{
+    background-color: #4F709C;
+}
+
+#hero *{
+    color: white;
+}
+
+#hero h1{
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.skills h2{
+    font-family: 'PT Serif', serif;
+    font-weight: 500;
+}
+
+.skills img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.grid{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.grid div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div ul li{
+    list-style: none;
+}
+
+#skill_div h2:hover,
+#skill_div p:hover,
+#skill_div ul li:hover {
+    background-color: #cce6ff;
+    cursor: pointer;
+}
+
+#skill_div_2 h2:hover,
+#skill_div_2 p:hover,
+#skill_div_2 ul li:hover {
+    background-color: #ffffcc;
+    cursor: pointer;
+}
+
+
+.projects{
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
+
+#projects h1{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+}
+
+.contact h1{
+    font-family: 'PT Serif', serif;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background-color: #E5D283;
+    border: #E5D283;
+}
+
+.page_buttons{
+    border: #213555 ;
+    background-color: #213555;
+}
+
+.page_buttons:hover{
+    background-color: #d9c46e;
+}
+
+.card:hover{
+    border: 1px solid #213555;
+}
+
+footer{
+    background-color: #4F709C;
+}
+
+hr{
+    margin: auto;
+    border: none;
+    border-top: 10px dotted #4F709C;
+    width: 5%;
+    margin-top: 48px;
+}
+
+footer *{
+    color: #E5D283;
+}
